@@ -4,7 +4,7 @@ git clone https://github.com/macports/macports-base
 
 cd macports-base
 
-TARGET=/tmp/test/macports
+TARGET=$HOME/macports
 
 ./configure --enable-readline --prefix=$TARGET --with-no-root-privileges --enable-shared
 mkdir -vp $TARGET
