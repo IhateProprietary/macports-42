@@ -1,6 +1,6 @@
 # Macports-42
 
-Similar to project https://github.com/kube/42homebrew
+Similar to project https://github.com/kube/42homebrew \
 This is an attempt at having a functional macports on 42 Mac.
 
 Note: It compiles from source
