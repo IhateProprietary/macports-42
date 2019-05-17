@@ -10,7 +10,7 @@ Note: It compiles from source
 ```
 mkdir -p _macports
 cd _macports
-curl -fsSL https://rawgit.com/IhateProprietary/macports-42/master/install.sh | zsh
+curl -fsSL https://raw.githubusercontent.com/IhateProprietary/macports-42/master/install.sh | zsh
 ````
 
 ## Uninstall
