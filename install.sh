@@ -11,7 +11,7 @@ mkdir -vp $TARGET
 make -j16
 make install
 
-curl -fsSL https://raw.githubusercontent.com/kube/42homebrew/master/.macports.zsh > $HOME/.macportsconfig.zsh
+curl -fsSL https://raw.githubusercontent.com/IhateProprietary/macports-42/master/.macports.zsh > $HOME/.macportsconfig.zsh
 EXISTS=`grep "source ~/.macportsconfig.zsh" ~/.zshrc`
 if [[ -z $EXISTS ]]; then
 	echo "source ~/.macportsconfig.zsh" >> ~/.zshrc
