@@ -18,6 +18,6 @@ curl -fsSL https://raw.githubusercontent.com/IhateProprietary/macports-42/master
 ```
 rm -rf macports
 rm -rf .macports
-rm -rf .macportsconfig.zsh
+rm -rf .macports.zsh
 ```
 Also remove in your zshrc this particular line `source ~/.macportsconfig.zsh`
