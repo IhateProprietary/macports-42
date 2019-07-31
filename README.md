@@ -20,4 +20,4 @@ rm -rf macports
 rm -rf .macports
 rm -rf .macports.zsh
 ```
-Also remove in your zshrc this particular line `source ~/.macportsconfig.zsh`
+Also remove in your zshrc this particular line `source ~/.macports.zsh`
