@@ -28,7 +28,7 @@ else
         mkdir -vp $MACPORTS_LOCK_BUILD_LINK
 fi
 
-if [[ ! -L $MACPORTS_LOGS_FOLDER_TARGET=$HOME/macports/var/macports/logs ]]; then
+if [[ ! -L $MACPORTS_LOGS_FOLDER_TARGET ]]; then
         mv -v $MACPORTS_LOGS_FOLDER_TARGET $MACPORTS_LOGS_FOLDER_LINK
         ln -sfv $MACPORTS_LOGS_FOLDER_LINK $MACPORTS_LOGS_FOLDER_TARGET
 else
