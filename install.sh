@@ -12,7 +12,7 @@ make -j16
 make install
 
 curl -fsSL https://raw.githubusercontent.com/IhateProprietary/macports-42/master/.macports.zsh > $HOME/.macports.zsh
-EXISTS=`grep "source ~/.macportsconfig.zsh" ~/.zshrc`
+EXISTS=`grep "source ~/.macports.zsh" ~/.zshrc`
 if [[ -z $EXISTS ]]; then
 	echo "source ~/.macports.zsh" >> ~/.zshrc
 fi
