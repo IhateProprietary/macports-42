@@ -8,10 +8,14 @@ Note: It compiles from source
 ## Install
 
 ```
-mkdir -p _macports
-cd _macports
+mkdir -p macports
+cd macports
 curl -fsSL https://raw.githubusercontent.com/IhateProprietary/macports-42/master/install.sh | zsh
 ````
+
+### Note
+
+If your session has no more space left, just move it to `server goinfre` if your campus has any, after it has finished its installation. \
 
 ## Uninstall
 
