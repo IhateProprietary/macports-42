@@ -15,7 +15,7 @@ curl -fsSL https://raw.githubusercontent.com/IhateProprietary/macports-42/master
 
 ### Note
 
-If your session has no more space left, just move it to `server goinfre` if your campus has any, after it has finished its installation. \
+If your session has no more space left, just move it to `server goinfre` if your campus has any, after it has finished its installation.
 
 ## Uninstall
 
